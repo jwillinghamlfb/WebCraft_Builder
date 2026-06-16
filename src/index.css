@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-bento-bg: #0A0A0C;
+  --color-bento-card: #0F0F12;
+  --color-bento-border: #1E293B;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+}
+
+/* Custom low-friction styling tracks for Bento elements */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #1e293b #0a0a0c;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0c;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Sidebar Dark Theme hardening overrides */
+#sidebar-panel input,
+#sidebar-panel select,
+#sidebar-panel textarea {
+  background-color: #0A0A0C !important;
+  color: #FFFFFF !important;
+  border-color: #1E293B !important;
+  border-radius: 0.5rem !important;
+}
+
+#sidebar-panel input:focus,
+#sidebar-panel select:focus,
+#sidebar-panel textarea:focus {
+  border-color: #6366F1 !important;
+  outline: none !important;
+  box-shadow: 0 0 0 1px #6366F1 !important;
+}
+
+#sidebar-panel label {
+  color: #94A3B8 !important;
+  font-weight: 600 !important;
+}
+
+#sidebar-panel .bg-slate-50,
+#sidebar-panel .bg-slate-100,
+#sidebar-panel .bg-slate-50\/50 {
+  background-color: #16161B !important;
+}
+
+#sidebar-panel .border-slate-100,
+#sidebar-panel .border-slate-200 {
+  border-color: #1E293B !important;
+}
+
+#sidebar-panel .text-slate-905,
+#sidebar-panel .text-slate-900,
+#sidebar-panel .text-slate-800,
+#sidebar-panel .text-slate-705,
+#sidebar-panel .text-slate-700 {
+  color: #F1F5F9 !important;
+}
+
+#sidebar-panel .text-slate-500,
+#sidebar-panel .text-slate-400 {
+  color: #94A3B8 !important;
+}
+

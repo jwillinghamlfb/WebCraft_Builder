@@ -1,0 +1,6 @@
+{
+  "name": "Visual Web App Builder",
+  "description": "An open-source Wix alternative that compiles drag-and-drop web elements into standalone code with Firestore and Supabase database-binding.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
